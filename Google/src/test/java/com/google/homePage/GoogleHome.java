@@ -18,10 +18,8 @@ public class GoogleHome {
 		d.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		d.get("https://www.google.co.in");
 		System.out.println(d.getTitle());
-		
-	Thread.sleep(2000);
-	d.quit();
-		
+		Thread.sleep(2000);
+		d.quit();	
 	}
 
 }
