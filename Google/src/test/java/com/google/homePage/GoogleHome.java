@@ -11,7 +11,6 @@ public class GoogleHome {
 	@Test
 	public void Homepage() throws Exception
 	{
-		
 		System.setProperty("webdriver.chrome.driver", "E:/Mohan/jarfiles/WebDrivers/Chrome/chromedriver_win32/chromedriver.exe");
 		WebDriver d=new ChromeDriver();
 		d.manage().window().maximize();
